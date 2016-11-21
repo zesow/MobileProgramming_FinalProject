@@ -5,29 +5,29 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="219919423971017"
+    timestamp="221916987525392"
     token="2485555750939303716"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="127" />
+        duration="845" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="135" />
+        duration="67" />
     <task
         name="verifier"
-        duration="20" />
+        duration="2" />
 
     <artifact
         location="/Users/YooMoonSang/git/MobileProgramming_FinalProject/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="219919423971017"
+        timestamp="221916987525392"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/YooMoonSang/git/MobileProgramming_FinalProject/app/build/outputs/apk/app-debug.apk"
