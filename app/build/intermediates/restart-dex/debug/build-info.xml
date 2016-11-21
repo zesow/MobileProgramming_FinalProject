@@ -5,32 +5,32 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="211167827659619"
-    token="4154483770842927268"
+    timestamp="219919423971017"
+    token="2485555750939303716"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1224" />
+        duration="127" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="248" />
+        duration="135" />
     <task
         name="verifier"
-        duration="34" />
+        duration="20" />
 
     <artifact
-        location="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/outputs/apk/app-debug.apk"
+        location="/Users/YooMoonSang/git/MobileProgramming_FinalProject/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="211167827659619"
+        timestamp="219919423971017"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/outputs/apk/app-debug.apk"
+            location="/Users/YooMoonSang/git/MobileProgramming_FinalProject/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
 

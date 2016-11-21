@@ -276,10 +276,10 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">Android Login and Registration</string>
+    <string name="app_name">20123075 유문상 Final Project</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="btn_link_to_login">Already registred! Login Me.</string>
-    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_register">회원이 아니세요? 지금 가입해보세요.</string>
     <string name="btn_login">LOGIN</string>
     <string name="btn_logout">LOGOUT</string>
     <string name="btn_register">REGISTER</string>
