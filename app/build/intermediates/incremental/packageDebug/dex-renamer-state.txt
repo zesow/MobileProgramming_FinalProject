@@ -1,0 +1,7 @@
+#Mon Nov 21 22:25:07 KST 2016
+base.0=/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e918bafae3303fda55d715dfa9346b465e536742
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e62743b2c771034ea0efab36a06cb710cfcb502a/classes.dex
+base.1=/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e62743b2c771034ea0efab36a06cb710cfcb502a
+file.0=/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e918bafae3303fda55d715dfa9346b465e536742/classes.dex

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_89a0871645d5071f9f9fd1dec45680251096ed20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_6f8f6c941b70aa9a7143a3a01f2f5b99b22d72b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_fbd5c790c217c2ac66f0445405ec25bfe7385c9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c7fd0366329dd07f8b105347ec4dd9f0ac7d43a5">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e918bafae3303fda55d715dfa9346b465e536742/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_4efa9931a3bfad3f7a46c0988872ab7185af3e17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="329c9cfbbfce746e2f504c869fbf0618fda7f2c0">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e62743b2c771034ea0efab36a06cb710cfcb502a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_0c908a54f8902722968d69df527ec015fe8316f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mcxiaoke.volley-library-aar-1.0.0_730f071b122c398b5e0175cbe3f5ab03ed2a7f65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/YooMoonSang/Downloads/AndroidLoginAndRegistration v2/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_24b67517a5ee559566cb5cf6e9788310196264e6/classes.dex" />
+    </item>
+
+</items>
