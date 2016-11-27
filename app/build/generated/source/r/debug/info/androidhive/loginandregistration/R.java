@@ -2236,6 +2236,7 @@ containing a value of this type.
         public static final int btnRegister=0x7f0b0075;
         public static final int button=0x7f0b0074;
         public static final int button2=0x7f0b0073;
+        public static final int button5=0x7f0b008e;
         public static final int buttonPanel=0x7f0b0044;
         public static final int cancel_action=0x7f0b007f;
         public static final int center=0x7f0b001d;
@@ -2269,6 +2270,9 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0b002e;
         public static final int fill_vertical=0x7f0b0021;
         public static final int fixed=0x7f0b0037;
+        public static final int fragment=0x7f0b008b;
+        public static final int fragment2=0x7f0b008c;
+        public static final int fragment3=0x7f0b008d;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000f;
         public static final int icon=0x7f0b0042;
@@ -2396,18 +2400,22 @@ containing a value of this type.
         public static final int design_navigation_item_subheader=0x7f030024;
         public static final int design_navigation_menu=0x7f030025;
         public static final int design_navigation_menu_item=0x7f030026;
-        public static final int notification_media_action=0x7f030027;
-        public static final int notification_media_cancel_action=0x7f030028;
-        public static final int notification_template_big_media=0x7f030029;
-        public static final int notification_template_big_media_narrow=0x7f03002a;
-        public static final int notification_template_lines=0x7f03002b;
-        public static final int notification_template_media=0x7f03002c;
-        public static final int notification_template_part_chronometer=0x7f03002d;
-        public static final int notification_template_part_time=0x7f03002e;
-        public static final int select_dialog_item_material=0x7f03002f;
-        public static final int select_dialog_multichoice_material=0x7f030030;
-        public static final int select_dialog_singlechoice_material=0x7f030031;
-        public static final int support_simple_spinner_dropdown_item=0x7f030032;
+        public static final int fragment_a=0x7f030027;
+        public static final int fragment_b=0x7f030028;
+        public static final int fragment_c=0x7f030029;
+        public static final int notification_media_action=0x7f03002a;
+        public static final int notification_media_cancel_action=0x7f03002b;
+        public static final int notification_template_big_media=0x7f03002c;
+        public static final int notification_template_big_media_narrow=0x7f03002d;
+        public static final int notification_template_lines=0x7f03002e;
+        public static final int notification_template_media=0x7f03002f;
+        public static final int notification_template_part_chronometer=0x7f030030;
+        public static final int notification_template_part_time=0x7f030031;
+        public static final int record=0x7f030032;
+        public static final int select_dialog_item_material=0x7f030033;
+        public static final int select_dialog_multichoice_material=0x7f030034;
+        public static final int select_dialog_singlechoice_material=0x7f030035;
+        public static final int support_simple_spinner_dropdown_item=0x7f030036;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f050000;
@@ -2451,8 +2459,15 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f080082;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f080005;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f080083;
         public static final int Base_AlertDialog_AppCompat=0x7f080084;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f080085;

@@ -44,7 +44,9 @@ public class MainActivity extends Activity implements SensorEventListener{
 		findViewById(R.id.button).setOnClickListener(
 				new Button.OnClickListener() {
 					public void onClick(View v) {
-						//기록 보기(select)
+						Intent intent = new Intent(MainActivity.this,
+								RecordActivity.class);
+						startActivity(intent);
 					}
 				}
 		);
