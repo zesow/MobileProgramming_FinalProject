@@ -27,6 +27,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
 	// Login table name
 	private static final String TABLE_USER = "user";
+	private static final String TABLE_USER2 = "score";
 
 	// Login Table Columns names
 	private static final String KEY_ID = "id";
@@ -34,6 +35,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	private static final String KEY_EMAIL = "email";
 	private static final String KEY_UID = "uid";
 	private static final String KEY_CREATED_AT = "created_at";
+	private static final String KEY_SCORE = "score";
 
 	public SQLiteHandler(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -46,7 +48,13 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 				+ KEY_ID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
 				+ KEY_EMAIL + " TEXT UNIQUE," + KEY_UID + " TEXT,"
 				+ KEY_CREATED_AT + " TEXT" + ")";
+		String CREATE_LOGIN_TABLE2 = "CREATE TABLE " + TABLE_USER2 + "("
+				+ KEY_ID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
+				+ KEY_SCORE + " INTEGER,"
+				+ KEY_CREATED_AT + " TEXT" + ")";
+
 		db.execSQL(CREATE_LOGIN_TABLE);
+		db.execSQL(CREATE_LOGIN_TABLE2);
 
 		Log.d(TAG, "Database tables created");
 	}
@@ -56,9 +64,25 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// Drop older table if existed
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
+		db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER2);
 
 		// Create tables again
 		onCreate(db);
+	}
+
+	public void addScore(String name, int score, String created_at) {
+		SQLiteDatabase db = this.getWritableDatabase();
+
+		ContentValues values = new ContentValues();
+		values.put(KEY_NAME, name); // Name
+		values.put(KEY_SCORE, score); // Email
+		values.put(KEY_CREATED_AT, created_at); // Created At
+
+		// Inserting Row
+		long id = db.insert(TABLE_USER2, null, values);
+		db.close(); // Closing database connection
+
+		Log.d(TAG, "New score inserted into sqlite: " + id);
 	}
 
 	/**

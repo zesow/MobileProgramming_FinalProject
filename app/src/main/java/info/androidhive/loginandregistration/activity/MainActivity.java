@@ -1,20 +1,41 @@
 package info.androidhive.loginandregistration.activity;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
 import java.util.HashMap;
+import java.util.Map;
 
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.app.AppConfig;
+import info.androidhive.loginandregistration.app.AppController;
 import info.androidhive.loginandregistration.helper.SQLiteHandler;
 import info.androidhive.loginandregistration.helper.SessionManager;
 
@@ -31,6 +52,7 @@ public class MainActivity extends Activity implements SensorEventListener{
 
 	private TextView tv;
 	private int count=0;
+	private String name;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -51,14 +73,6 @@ public class MainActivity extends Activity implements SensorEventListener{
 				}
 		);
 
-		findViewById(R.id.button2).setOnClickListener(
-				new Button.OnClickListener() {
-					public void onClick(View v) {
-						//저장(insert)
-					}
-				}
-		);
-
 		mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 		mProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
 
@@ -75,7 +89,7 @@ public class MainActivity extends Activity implements SensorEventListener{
 		// Fetching user details from SQLite
 		HashMap<String, String> user = db.getUserDetails();
 
-		String name = user.get("name");
+		name = user.get("name");
 
 		// Displaying the user details on the screen
 		txtName.setText(name+"님 안녕하세요!");
@@ -88,6 +102,79 @@ public class MainActivity extends Activity implements SensorEventListener{
 				logoutUser();
 			}
 		});
+
+		findViewById(R.id.button2).setOnClickListener(
+				new Button.OnClickListener() {
+					public void onClick(View v) {
+						//저장(insert)
+						registerScore(name,count);
+						count=0;
+						tv.setText(String.valueOf(count));
+					}
+				}
+		);
+	}
+
+	private void registerScore(String name,int count){
+		class InsertData extends AsyncTask<String, Void, String> {
+			ProgressDialog loading;
+
+			@Override
+			protected void onPreExecute() {
+				super.onPreExecute();
+				loading = ProgressDialog.show(MainActivity.this, "기록 새기는 중..", null, true, true);
+			}
+
+			@Override
+			protected void onPostExecute(String s) {
+				super.onPostExecute(s);
+				loading.dismiss();
+				Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
+			}
+
+			@Override
+			protected String doInBackground(String... params) {
+
+				try{
+					String name = (String)params[0];
+					String count = (String)params[1];
+
+					String link="http://54.164.7.137/android_login_api/insert.php";
+					String data  = URLEncoder.encode("name", "UTF-8") + "=" + URLEncoder.encode(name, "UTF-8");
+					data += "&" + URLEncoder.encode("count", "UTF-8") + "=" + URLEncoder.encode(count, "UTF-8");
+
+					URL url = new URL(link);
+					URLConnection conn = url.openConnection();
+
+					conn.setDoOutput(true);
+					OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
+
+					wr.write( data );
+					wr.flush();
+
+					BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+
+					StringBuilder sb = new StringBuilder();
+					String line = null;
+
+					// Read Server Response
+					while((line = reader.readLine()) != null)
+					{
+						sb.append(line);
+						break;
+					}
+					return sb.toString();
+				}
+				catch(Exception e){
+					return new String("Exception: " + e.getMessage());
+				}
+
+			}
+		}
+
+		InsertData task = new InsertData();
+		task.execute(name,String.valueOf(count));
+
 	}
 
 	/**
