@@ -5,8 +5,8 @@
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
-    <string name="btn_login">LOGIN</string>
-    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">로그-인</string>
+    <string name="btn_register">가입</string>
     <string name="btn_link_to_register">아직도 가입 안했나? 어서 가입하시게!</string>
     <string name="btn_link_to_login">이미 가입하셨나요? 로그인 해 보세요.</string>
     <string name="welcome">Welcome</string>

@@ -9,12 +9,21 @@
     android:padding="10dp"
     android:weightSum="1">
 
+    <TextView
+        android:text="애-프터"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="50dp"
+        android:background="#ffff0000"
+        android:textColor="#ff000000"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView3" />
+
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="213dp"
         android:src="@drawable/android"
-        android:id="@+id/imageView"
-        android:layout_weight="0.92" />
+        android:id="@+id/imageView" />
 
     <LinearLayout
         android:layout_width="fill_parent"

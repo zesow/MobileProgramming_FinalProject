@@ -6,6 +6,7 @@ import android.text.TextUtils;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
+import com.tsengvn.typekit.Typekit;
 
 public class AppController extends Application {
 
@@ -19,6 +20,9 @@ public class AppController extends Application {
 	public void onCreate() {
 		super.onCreate();
 		mInstance = this;
+		Typekit.getInstance()
+				.addNormal(Typekit.createFromAsset(this, "fonts/inmin.ttf"))
+				.addBold(Typekit.createFromAsset(this, "fonts/inmin.ttf"));
 	}
 
 	public static synchronized AppController getInstance() {

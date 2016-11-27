@@ -148,6 +148,10 @@
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_intro.xml",
+        "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\src\\main\\res\\layout\\activity_intro.xml"
+    },
+    {
         "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
     },

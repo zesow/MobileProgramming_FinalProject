@@ -19,7 +19,7 @@ import info.androidhive.loginandregistration.fragment.FragmentA;
 import info.androidhive.loginandregistration.fragment.FragmentB;
 import info.androidhive.loginandregistration.fragment.FragmentC;
 
-public class RecordActivity extends AppCompatActivity{
+public class RecordActivity extends BaseActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.record);

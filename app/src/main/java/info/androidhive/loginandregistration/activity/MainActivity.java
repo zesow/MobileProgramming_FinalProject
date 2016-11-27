@@ -39,7 +39,7 @@ import info.androidhive.loginandregistration.app.AppController;
 import info.androidhive.loginandregistration.helper.SQLiteHandler;
 import info.androidhive.loginandregistration.helper.SessionManager;
 
-public class MainActivity extends Activity implements SensorEventListener{
+public class MainActivity extends BaseActivity implements SensorEventListener{
 
 	private TextView txtName;
 	private Button btnLogout;
