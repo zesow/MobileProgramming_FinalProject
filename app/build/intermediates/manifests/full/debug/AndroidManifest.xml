@@ -40,7 +40,6 @@
             android:name="info.androidhive.loginandregistration.activity.RecordActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop" />
-        <activity android:name="info.androidhive.loginandregistration.fragment.FragmentA" />
     </application>
 
 </manifest>

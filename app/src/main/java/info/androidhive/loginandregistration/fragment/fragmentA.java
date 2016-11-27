@@ -104,6 +104,7 @@ public class FragmentA extends Fragment {
     }
 
     public void getData(String url){
+
         class GetDataJSON extends AsyncTask<String, Void, String>{
 
             @Override
@@ -130,8 +131,6 @@ public class FragmentA extends Fragment {
                     return null;
                 }
 
-
-
             }
 
             @Override
@@ -140,6 +139,7 @@ public class FragmentA extends Fragment {
                 showList();
             }
         }
+
         GetDataJSON g = new GetDataJSON();
         g.execute(url);
     }
