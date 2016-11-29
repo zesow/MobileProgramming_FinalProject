@@ -51,6 +51,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.activity.NoFragmentActivity"
+            android:label="@string/title_activity_no_fragment"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

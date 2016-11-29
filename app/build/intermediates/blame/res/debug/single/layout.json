@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
+        "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_fragment.xml",
+        "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\src\\main\\res\\layout\\activity_no_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
     },

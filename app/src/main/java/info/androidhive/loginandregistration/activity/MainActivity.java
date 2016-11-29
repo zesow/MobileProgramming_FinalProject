@@ -63,15 +63,7 @@ public class MainActivity extends BaseActivity implements SensorEventListener{
 		btnLogout = (Button) findViewById(R.id.btnLogout);
 		tv=(TextView)findViewById(R.id.textView2);
 
-		findViewById(R.id.button).setOnClickListener(
-				new Button.OnClickListener() {
-					public void onClick(View v) {
-						Intent intent = new Intent(MainActivity.this,
-								RecordActivity.class);
-						startActivity(intent);
-					}
-				}
-		);
+
 
 		mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 		mProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
@@ -90,6 +82,20 @@ public class MainActivity extends BaseActivity implements SensorEventListener{
 		HashMap<String, String> user = db.getUserDetails();
 
 		name = user.get("name");
+
+		findViewById(R.id.button).setOnClickListener(
+				new Button.OnClickListener() {
+					public void onClick(View v) {//기록 보여주기
+						//Intent intent = new Intent(MainActivity.this,
+						//		RecordActivity.class);
+						//startActivity(intent);
+						Intent intent = new Intent(MainActivity.this,
+								NoFragmentActivity.class);
+						intent.putExtra("myName",name);
+						startActivity(intent);
+					}
+				}
+		);
 
 		// Displaying the user details on the screen
 		txtName.setText(name+"님 안녕하세요!");
