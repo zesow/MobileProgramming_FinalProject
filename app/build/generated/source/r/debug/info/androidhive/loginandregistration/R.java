@@ -1940,20 +1940,20 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060007;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0050;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0051;
-        public static final int abc_color_highlight_material=0x7f0a0052;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0051;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0052;
+        public static final int abc_color_highlight_material=0x7f0a0053;
         public static final int abc_input_method_navigation_guard=0x7f0a0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0053;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0a0054;
-        public static final int abc_primary_text_material_dark=0x7f0a0055;
-        public static final int abc_primary_text_material_light=0x7f0a0056;
-        public static final int abc_search_url_text=0x7f0a0057;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0054;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a0055;
+        public static final int abc_primary_text_material_dark=0x7f0a0056;
+        public static final int abc_primary_text_material_light=0x7f0a0057;
+        public static final int abc_search_url_text=0x7f0a0058;
         public static final int abc_search_url_text_normal=0x7f0a0001;
         public static final int abc_search_url_text_pressed=0x7f0a0002;
         public static final int abc_search_url_text_selected=0x7f0a0003;
-        public static final int abc_secondary_text_material_dark=0x7f0a0058;
-        public static final int abc_secondary_text_material_light=0x7f0a0059;
+        public static final int abc_secondary_text_material_dark=0x7f0a0059;
+        public static final int abc_secondary_text_material_light=0x7f0a005a;
         public static final int accent_material_dark=0x7f0a0004;
         public static final int accent_material_light=0x7f0a0005;
         public static final int background_floating_material_dark=0x7f0a0006;
@@ -2027,11 +2027,12 @@ containing a value of this type.
         public static final int secondary_text_disabled_material_light=0x7f0a004a;
         public static final int switch_thumb_disabled_material_dark=0x7f0a004b;
         public static final int switch_thumb_disabled_material_light=0x7f0a004c;
-        public static final int switch_thumb_material_dark=0x7f0a005a;
-        public static final int switch_thumb_material_light=0x7f0a005b;
+        public static final int switch_thumb_material_dark=0x7f0a005b;
+        public static final int switch_thumb_material_light=0x7f0a005c;
         public static final int switch_thumb_normal_material_dark=0x7f0a004d;
         public static final int switch_thumb_normal_material_light=0x7f0a004e;
         public static final int white=0x7f0a004f;
+        public static final int yellow=0x7f0a0050;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f07000d;
@@ -2488,15 +2489,8 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f080083;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f080005;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f080084;
         public static final int AppTheme_AppBarOverlay=0x7f080085;
         public static final int AppTheme_NoActionBar=0x7f080031;

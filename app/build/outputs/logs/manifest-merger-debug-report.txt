@@ -59,7 +59,7 @@ MERGED from [com.tsengvn:typekit:1.0.1] C:\Users\Yoo\AndroidStudioProjects\Mobil
 	android:allowBackup
 		ADDED from C:\Users\Yoo\AndroidStudioProjects\MobileProgramming_FinalProject\app\src\main\AndroidManifest.xml:19:9-35
 	android:icon
-		ADDED from C:\Users\Yoo\AndroidStudioProjects\MobileProgramming_FinalProject\app\src\main\AndroidManifest.xml:20:9-45
+		ADDED from C:\Users\Yoo\AndroidStudioProjects\MobileProgramming_FinalProject\app\src\main\AndroidManifest.xml:20:9-41
 	android:theme
 		ADDED from C:\Users\Yoo\AndroidStudioProjects\MobileProgramming_FinalProject\app\src\main\AndroidManifest.xml:22:9-40
 	android:name
