@@ -27,13 +27,13 @@ import java.util.HashMap;
 
 import info.androidhive.loginandregistration.R;
 
-public class NoFragmentActivity extends AppCompatActivity {
+public class NoFragmentActivity extends BaseActivity {
 
 
     String myJSON;
 
     private static final String TAG_RESULTS="result";
-    private static final String TAG_ID = "id";
+
     private static final String TAG_NAME = "name";
     private static final String TAG_ADD ="count";
 
@@ -47,6 +47,7 @@ public class NoFragmentActivity extends AppCompatActivity {
     TextView maxView;
     TextView meanView;
     TextView myMeanView;
+    TextView estimateView;
 
     int max=0;
     int sum=0;
@@ -65,6 +66,7 @@ public class NoFragmentActivity extends AppCompatActivity {
         maxView= (TextView) findViewById(R.id.textViewScore);
         meanView= (TextView) findViewById(R.id.textViewMean);
         myMeanView= (TextView) findViewById(R.id.textViewMyMean);
+        estimateView= (TextView) findViewById(R.id.textViewEstimate);
 
         //Intent intent=getIntent();
         //myName=intent.getStringExtra("myName");
@@ -82,7 +84,7 @@ public class NoFragmentActivity extends AppCompatActivity {
 
             for(int i=0;i<peoples.length();i++){
                 JSONObject c = peoples.getJSONObject(i);
-                String id = c.getString(TAG_ID);
+
                 String name = c.getString(TAG_NAME);
                 String count = c.getString(TAG_ADD);
 
@@ -96,7 +98,7 @@ public class NoFragmentActivity extends AppCompatActivity {
 
                 persons = new HashMap<String,String>();
 
-                persons.put(TAG_ID,id);
+
                 persons.put(TAG_NAME,name);
                 persons.put(TAG_ADD,count);
 
@@ -111,8 +113,8 @@ public class NoFragmentActivity extends AppCompatActivity {
 
             ListAdapter adapter = new SimpleAdapter(
                     NoFragmentActivity.this, myList, R.layout.list_item,
-                    new String[]{TAG_ID,TAG_NAME,TAG_ADD},
-                    new int[]{R.id.id, R.id.name, R.id.count}
+                    new String[]{TAG_NAME,TAG_ADD},
+                    new int[]{R.id.name, R.id.count}
             );
 
             list.setAdapter(adapter);
@@ -163,6 +165,13 @@ public class NoFragmentActivity extends AppCompatActivity {
                 maxView.setText("최고 점수는 "+bestMan+" 님의 "+String.valueOf(max)+" 점!");
                 meanView.setText("전체 평균은 "+String.valueOf(sum/cnt)+" 점!");
                 myMeanView.setText("내 평균은 "+String.valueOf(mySum/myCnt)+" 점!");
+
+                if((mySum/myCnt)>(sum/cnt)){
+                    estimateView.setText("잘 하시고 계시네요!");
+                }
+                else{
+                    estimateView.setText("좀 더 분발하세요!");
+                }
             }
         }
 

@@ -12,27 +12,6 @@
     >
 
     <TextView
-        android:text="팔굽혀펴기 횟수"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="147dp"
-        android:textSize="30dp"
-        android:textColor="@color/white"
-        android:id="@+id/textView" />
-
-    <TextView
-        android:text="시작하세요!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="60dp"
-        android:textColor="@color/white"
-        android:id="@+id/textView2" />
-
-    <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,6 +51,40 @@
         android:background="@color/btn_login_bg"
         android:textColor="@color/btn_login"
         android:layout_above="@+id/btnLogout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:text="팔굽혀펴기 횟수"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:id="@+id/textView"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp" />
+
+    <TextView
+        android:text="시작하세요!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:textColor="@color/white"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="다시 하기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_login_bg"
+        android:textColor="@color/btn_login"
+        android:id="@+id/button3"
+        android:layout_above="@+id/button2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="11dp" />

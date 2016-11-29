@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@color/bg_login"
     >
 
     <TextView
@@ -39,11 +41,21 @@
         android:gravity="center_horizontal"
         android:orientation="vertical" >
 
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:src="@color/bg_register"
+            android:id="@+id/imageView5"
+             />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:textSize="40dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dip"
             android:gravity="center_horizontal"
             android:text="통계로 보면..." />
 
@@ -52,23 +64,39 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dip"
             android:id="@+id/textViewScore"
-            android:text="서버에서 점수 계산 중 ..." />
+            android:text="서버와 통신 중 ..." />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dip"
             android:id="@+id/textViewMean"
-            android:text="잠시만 기다려 주세요" />
+            android:text="잠시만 기다려 주세요." />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_margin="10dip"
             android:textSize="20dp"
             android:id="@+id/textViewMyMean"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_margin="40dip"
+            android:textSize="30dp"
+            android:id="@+id/textViewEstimate"
             android:text="" />
 
     </LinearLayout>

@@ -40,10 +40,6 @@
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_b.xml",
-        "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\src\\main\\res\\layout\\fragment_b.xml"
-    },
-    {
         "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
@@ -56,16 +52,12 @@
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\src\\main\\res\\layout\\record.xml"
     },
     {
-        "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_c.xml",
-        "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\src\\main\\res\\layout\\fragment_c.xml"
+        "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -198,10 +190,6 @@
     {
         "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_a.xml",
-        "source": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\src\\main\\res\\layout\\fragment_a.xml"
     },
     {
         "merged": "C:\\Users\\Yoo\\AndroidStudioProjects\\MobileProgramming_FinalProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",

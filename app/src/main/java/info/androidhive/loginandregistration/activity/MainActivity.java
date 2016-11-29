@@ -86,13 +86,19 @@ public class MainActivity extends BaseActivity implements SensorEventListener{
 		findViewById(R.id.button).setOnClickListener(
 				new Button.OnClickListener() {
 					public void onClick(View v) {//기록 보여주기
-						//Intent intent = new Intent(MainActivity.this,
-						//		RecordActivity.class);
-						//startActivity(intent);
 						Intent intent = new Intent(MainActivity.this,
 								NoFragmentActivity.class);
 						intent.putExtra("myName",name);
 						startActivity(intent);
+					}
+				}
+		);
+
+		findViewById(R.id.button3).setOnClickListener(
+				new Button.OnClickListener() {
+					public void onClick(View v) {//다시 하기
+						count=0;
+						tv.setText(String.valueOf(count));
 					}
 				}
 		);
